@@ -1,0 +1,14 @@
+keywords:
+
+dev-libs/odaba
+dev-util/odaba-plugins
+
+
+use:
+
+dev-libs/odaba gui email compression documents documentation
+dev-util/odaba-plugins uml webkit
+
+emerge -vat odaba-plugins
+
+/usr/share/odaba/otool.sh ClassEditor Sample.dev
